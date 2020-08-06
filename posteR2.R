@@ -7,14 +7,14 @@ library(rtweet)
 library(readr)
   
 ## store api keys (these are fake example values; replace with your own keys)
-api_key <- "d4Jl6eH8AiYcXkuAwrgkM6gJ3"
-api_secret_key <- "Z5bhyKoDiOiKU9Uu9zPoxnKdAKShONdgsTkcKXeJLhuaJtqkSJ"
-access_token <- "892981240667807744-rfF45SbCK9Yu0byTPoVLxQTyEDMvg2g"
-access_token_secret <- "Mx67izXSpNVkhc4wHvwEAn90dknkHoq7dv0W9RRTf28di"
+api_key <- "XXXXXXXXXXXXXXXXXXXXXX"
+api_secret_key <- "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+access_token <- "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+access_token_secret <- "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 ## authenticate via web browser
 token <- create_token(
-  app = "Kwadu",
+  app = "App-name",
   consumer_key = api_key,
   consumer_secret = api_secret_key,
   access_token = access_token,
