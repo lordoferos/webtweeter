@@ -1,5 +1,6 @@
 # webtweeter
-Use a list of links to create customized tweets. I have stored my links in the text file below:
+Use a list of links to create customized tweets. You have to have a Twitter Developer account.
+I have stored my links in the text file below:
 https://github.com/lordoferos/dulinks/blob/master/dulinks.txt
 
 1. Sample tweet 1
