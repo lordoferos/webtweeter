@@ -18,7 +18,7 @@ while True:
         auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
         apip = tweepy.API(auth)
 
-        # read link file
+        # read link file (a text file from your directory)
 
         with open('path for the text file') as f:
             passFile = [line.rstrip() for line in f]
