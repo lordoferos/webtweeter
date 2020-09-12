@@ -1,12 +1,12 @@
 #! /bin/bash
-# Posting tweets at 1 hr intervals
+# posterPy.py is set to posting tweets at 1 hr intervals
 import tweepy
 import random
 import time
 
 # Create new function
 while True:
-    def posteR():
+    def posterPy():
 
         ## store api keys (these are fake example values; replace with your own keys)
 
@@ -49,5 +49,5 @@ while True:
         apip.update_status(chunk)
 
     # Post tweet
-    posteR()
+    posterPy()
     time.sleep(1200)
