@@ -34,7 +34,7 @@ chunk = links[rand,]
   
 # get trending topics  
 trends <- get_trends("Kenya")
-trends_string = paste(trends[1,1],trends[2,1],trends[3,1],trends[4,1],trends[5,1], sep = " ") # Select top 5
+trends_string = paste(trends[1,1],trends[2,1],trends[3,1],trends[4,1],trends[5,1], sep = " ") # Select top 5 trends
   
 # create tweet content
 tweet_content = paste(trends_string, chunk, sep = " ")
